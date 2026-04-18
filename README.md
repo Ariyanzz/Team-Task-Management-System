@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow — Team Task Management System
 
 A full-stack productivity application built with Next.js, Express (TypeScript), and MongoDB. Manage tasks individually or within a team with a clean, modern UI.
@@ -191,3 +192,7 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 - **JWT in localStorage** — simple for this scope; cookie-based is preferred for production
 - **Kanban grouping** activates only when no filters are applied — improves UX for browsing
 - **Role-based access** enforced both in middleware (backend) and UI (frontend guards)
+=======
+# Team-Task-Management-System
+A full-stack productivity application built with Next.js, Express (TypeScript), and MongoDB. Manage tasks individually or within a team with a clean, modern UI.
+>>>>>>> 8ab6d2604f92e5374f2e0df3a3f3e2686019a948
