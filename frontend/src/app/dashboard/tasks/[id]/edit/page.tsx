@@ -71,7 +71,7 @@ export default function EditTaskPage() {
       priority: data.priority,
       dueDate: data.dueDate,
       assignedTo: data.assignedTo || undefined,
-      tags: data.tags ? data.tags.split(',').map((t) => t.trim()).filter(Boolean) : [],
+      tags: data.tags ? data.tags.split(',').map((t) => t.trim()).filter(Boolean).join(','): "",
     });
   };
 
