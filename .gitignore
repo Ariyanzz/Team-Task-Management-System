@@ -33,3 +33,8 @@ Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
+
+node_modules/
+.env
+.next
+dist
